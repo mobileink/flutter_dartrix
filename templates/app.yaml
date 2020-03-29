@@ -1,0 +1,46 @@
+name: app
+version: 0.1.0
+docstring: A simple Flutter app
+description: Generates a Flutter app.
+
+params:
+
+- name       : 'title'
+  abbr       : 't'
+  docstring  : 'App title'
+  typeHelp   : 'string'
+  defaultsTo : 'Flutter Demo'
+  # help       : ''
+  # seg        : ''
+  # hook       : ''
+
+- name: 'project'
+  abbr: 'p'
+  docstring: 'Project'
+  help: 'Project name'
+  typeHelp: 'string'
+  defaultsTo: 'flapp'
+  seg:     'PROJ'
+
+- name: 'domain'
+  abbr: 'd'
+  docstring: 'Domain name.'
+  help: 'Domain name as dotted string, e.g foo.bar.com'
+  typeHelp: 'string'
+  defaultsTo: 'example.org'
+
+
+- name: 'app'
+  abbr: 'a'
+  docstring: 'Application'
+  help: 'Application name'
+  typeHelp: 'string'
+  defaultsTo: 'flapp'
+  seg:     'APP'
+
+- name: 'greeting'
+  abbr: 'g'
+  docstring: 'Greeting msg.'
+  help: 'A greeting like "Hello" or "Salut".'
+  typeHelp: 'string'
+  defaultsTo: 'Hello'

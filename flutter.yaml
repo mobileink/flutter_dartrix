@@ -1,0 +1,14 @@
+name: flutter
+version: 0.1.0
+docstring: A Dartrix template library of Flutter code.
+description: Contains a collection of templates for generating Flutter code.
+
+## Data elements shared by all templates in this library:
+# params:
+# - name: 'lang'
+#   abbr: 'l'
+#   docstring: 'Programming language'
+#   # help: ''
+#   typeHelp: 'string'
+#   defaultsTo: 'Dart'
+
