@@ -1,5 +1,5 @@
 name: flutter
-version: 0.1.0
+version: 0.1.0-beta
 docstring: A Dartrix template library of Flutter code.
 description: Contains a collection of templates for generating Flutter code.
 

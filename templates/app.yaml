@@ -29,7 +29,6 @@ params:
   typeHelp: 'string'
   defaultsTo: 'example.org'
 
-
 - name: 'app'
   abbr: 'a'
   docstring: 'Application'
