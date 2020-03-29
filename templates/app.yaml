@@ -29,13 +29,21 @@ params:
   typeHelp: 'string'
   defaultsTo: 'example.org'
 
+- name: 'class'
+  abbr: 'c'
+  docstring: 'Class name for Android component.'
+  help: 'A Java/Kotlin class name.'
+  typeHelp: 'string'
+  defaultsTo: 'MainActivity'
+  seg: 'CLASS'
+
 - name: 'app'
   abbr: 'a'
   docstring: 'Application'
   help: 'Application name'
   typeHelp: 'string'
   defaultsTo: 'flapp'
-  seg:     'APP'
+  seg: 'APP'
 
 - name: 'greeting'
   abbr: 'g'
