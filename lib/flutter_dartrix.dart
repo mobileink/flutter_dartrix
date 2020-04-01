@@ -22,8 +22,8 @@ void main(List<String> args, SendPort sport) {
 
   // First arg is the template name.
   switch (args[0]) {
-    case "app":
-      handleApp(args, sport);
+    case "tap_counter":
+      handleTapCounter(args, sport);
       break;
     default:
       dartrixPort.send({});
