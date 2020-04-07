@@ -1,3 +1,7 @@
+## 0.2.3
+
+- add example/main.dart to make pub.dev happy
+
 ## 0.2.2
 
 - Fix bad import directive
