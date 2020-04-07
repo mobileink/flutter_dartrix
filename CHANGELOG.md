@@ -1,3 +1,7 @@
+## 0.2.4
+
+- Fix readme
+
 ## 0.2.3
 
 - add example/main.dart to make pub.dev happy
