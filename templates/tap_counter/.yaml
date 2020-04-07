@@ -1,58 +1,46 @@
 name         : tap_counter
-version      : 0.2.0
+version      : 0.2.1
 docstring    : A simple Flutter app
 description  : Generates a Flutter app.
 
-dartrix      : 0.1.24-alpha
+dartrix      : 0.2.0
 
 params:
+  sys:
+    - id : out
+      defaultsTo : tap_counter
+    - id : ns
+      defaultsTo : example.org
 
-- name       : title
-  docstring  : App title
-  type       : string
-  defaultsTo : Flutter Demo
-
-- name       : project
-  abbr       : p
-  docstring  : Project
-  help       : Project name
-  type       : string
-  defaultsTo : flapp
-  seg        :     PROJ
-
-- name       : domain
-  abbr       : d
-  docstring  : Domain name.
-  help       : Domain name as dotted string, e.g foo.bar.com
-  type       : string
-  defaultsTo : example.org
-
-- name       : class
-  abbr       : c
-  docstring  : Class name for Android component.
-  help       : A Java/Kotlin class name.
-  type       : string
-  defaultsTo : MainActivity
-  seg        : CLASS
-
-- name       : app
-  abbr       : a
-  docstring  : Application
-  help       : Application name
-  type       : string
-  defaultsTo : flapp
-  seg        : APP
-
-- name       : greeting
-  abbr       : g
-  docstring  : Greeting msg.
-  help       : A greeting like "Hello" or "Salut".
-  type       : string
-  defaultsTo : Hello
-
-- name       : out
-  abbr       : o
-  docstring  : Output directory
-  help       : Output path relative to current working directory.
-  type       : _out_prefix
-  defaultsTo : tap_counter
+  user:
+    - name       : title
+      docstring  : App title
+      typeHint   : string
+      defaultsTo : Flutter Demo
+    - name       : project
+      abbr       : p
+      docstring  : Project
+      help       : Project name
+      typeHint   : string
+      defaultsTo : tap_counter
+      seg        :     PROJ
+    - name       : class
+      abbr       : c
+      docstring  : Class name for Android component.
+      help       : A Java/Kotlin class name.
+      typeHint   : string
+      defaultsTo : MainActivity
+      seg        : CLASS
+    - name       : app
+      abbr       : a
+      docstring  : Application
+      help       : Application name
+      typeHint   : string
+      defaultsTo : tap_counter
+      seg        : APP
+    - name       : greeting
+      abbr       : g
+      docstring  : Greeting msg.
+      help       : A greeting like "Hello" or "Salut".
+      typeHint   : string
+      defaultsTo : Hello
