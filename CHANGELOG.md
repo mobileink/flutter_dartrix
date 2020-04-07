@@ -1,3 +1,7 @@
+## 0.2.2
+
+- Fix bad import directive
+
 ## 0.2.1
 
 - Update everything to Dartrix 0.2.0, bump version to 0.2.1
