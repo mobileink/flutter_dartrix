@@ -1,6 +1,6 @@
 import 'dart:isolate';
 
-import 'src/app.dart';
+import 'src/tap_counter.dart';
 
 SendPort dartrixPort;
 
